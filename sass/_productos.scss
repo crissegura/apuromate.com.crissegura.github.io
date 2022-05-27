@@ -1,0 +1,81 @@
+.productos{
+    .tarjetas{
+        background-color: rgba(248, 242, 242, 0.459);
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+        width: 90%;
+        border-radius: 10px;
+        border: solid white 1px;
+        .img_productos{
+            width: 150px;
+        }
+        .vistapc{
+            display: none;
+        }
+        .texto_tarjetas{
+            display: flex;
+            align-items: center;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                margin-left: 5px;
+                font-size: 15px;
+            }
+        }
+        .comprar{
+            font-size: 12px;
+            border-radius: 5px;
+            background-color: white;
+        }
+    }
+}
+@media(min-width:768px){
+    .productos{
+        font-size: 18px;
+        justify-content: space-evenly;
+        .tarjetas{
+            border-radius:10px;
+            height: 425px;
+            align-items: center;
+            align-content: center;
+            padding: 15px;
+            width: 500px;
+            border: solid white 2px;
+            .vistapc{
+                display: block;
+            }
+            .img_productos{
+                height: 200px;
+            }
+            &:hover{
+                border: solid black 2px;
+            }
+            display: block;
+            .texto_tarjetas{
+                display: block;
+                h2{
+                    display: none;
+                }
+                p{
+                    font-size: 18px;
+                    display: block;
+                }
+            }
+            .comprar{
+                font-size: 15px;
+                display: block;
+                display: inline;
+                border-radius: 5px;
+                border: solid rgb(150, 150, 150) 1px;
+                &:hover{
+                    border: solid black 1px;
+                    width: 80px;
+                    background-color:rgb(216, 239, 240);
+                }
+            }
+        }
+    }
+}

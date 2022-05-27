@@ -1,0 +1,29 @@
+.contenedor_tutoriales{
+    .tutoriales{
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+        width: 90%;
+        margin: 10px;
+        border-radius: 10px;
+        border: solid white 1px;
+        background-color: rgba(248, 242, 242, 0.459);
+    }
+}
+@media(min-width: 992px){
+    .contenedor_tutoriales{
+        .tutoriales{
+            background-color: rgba(248, 242, 242, 0.459);
+            border-radius: 10px;
+            margin: 15px;
+            &:hover{
+                border-radius: 10px;
+                border: solid black 3px;
+            }
+        .textIframe{
+            font-size: 20px;
+            align-items: center;
+        }
+        }
+    }
+}
