@@ -19,15 +19,40 @@
             }
         }
     }    
-    .imagenes{
-        display:none;
+    .extra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        h3{
+            background-color:rgba(248, 242, 242, 0.459);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            padding: 5px;
+            border: solid white 1px;
+            width: 450px;
+        }
+        .imagenes{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            img{
+                margin: 5px;
+                width: 300px;
+                height: 300px;
+                border-radius: 10px;
+                border: solid white 2px;
+            }
+        }
     }
-    
 }
 @media(min-width:992px){
     .sobre_nosotros{
         font-size: 18px;
         .texto{
+            color: black;
             margin: 15px;
             border-radius: 10px;
             background-color: rgba(248, 242, 242, 0.459);
@@ -42,16 +67,27 @@
                 height: 250px;   
             }
         }
-        .imagenes{
-            display: block;
-            display: flex;
-            justify-content: space-evenly;
-            margin: 15px;
-            img{
-                width: 300px;
-                height: 300px;
+        .extra{
+            h3{
+                background-color:rgba(248, 242, 242, 0.459);
                 border-radius: 10px;
-                border: solid white 2px;
+                text-align: center;
+                font-size: 18px;
+                color: black;
+                padding: 5px;
+                border: solid white 1px;
+                width: 450px;
+            }
+            .imagenes{
+                display: flex;
+                justify-content: space-evenly;
+                margin: 15px;
+                img{
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 10px;
+                    border: solid white 2px;
+                }
             }
         }
     }

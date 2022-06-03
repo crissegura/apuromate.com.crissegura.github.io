@@ -1,5 +1,6 @@
 .body {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
   position: relative;
   min-height: 100vh;
   padding-bottom: 60px;
@@ -195,6 +196,7 @@
 }
 
 .productos .tarjetas .img_productos {
+  border-radius: 10px;
   width: 150px;
 }
 
@@ -406,8 +408,45 @@
   height: 280px;
 }
 
-.sobre_nosotros .imagenes {
-  display: none;
+.sobre_nosotros .extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sobre_nosotros .extra h3 {
+  background-color: rgba(248, 242, 242, 0.459);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  padding: 5px;
+  border: solid white 1px;
+  width: 450px;
+}
+
+.sobre_nosotros .extra .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sobre_nosotros .extra .imagenes img {
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: solid white 2px;
 }
 
 @media (min-width: 992px) {
@@ -415,6 +454,7 @@
     font-size: 18px;
   }
   .sobre_nosotros .texto {
+    color: black;
     margin: 15px;
     border-radius: 10px;
     background-color: rgba(248, 242, 242, 0.459);
@@ -435,8 +475,17 @@
             align-items: center;
     height: 250px;
   }
-  .sobre_nosotros .imagenes {
-    display: block;
+  .sobre_nosotros .extra h3 {
+    background-color: rgba(248, 242, 242, 0.459);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border: solid white 1px;
+    width: 450px;
+  }
+  .sobre_nosotros .extra .imagenes {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -445,11 +494,37 @@
             justify-content: space-evenly;
     margin: 15px;
   }
-  .sobre_nosotros .imagenes img {
+  .sobre_nosotros .extra .imagenes img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
     border: solid white 2px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.icon-wts {
+  width: 55px;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.icon-wts:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+@media (min-width: 992px) {
+  .icon-wts {
+    width: 55px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .icon-wts:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
