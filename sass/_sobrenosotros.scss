@@ -5,7 +5,8 @@
         .texto{
             border: solid white 1px;
             margin: 15px;
-            background-color: rgba(248, 242, 242, 0.459);
+            background-color: rgba(248, 242, 242, 0.062);
+            color: #ffff;
             justify-content: center;
             text-align: center;
             padding: 10px;
@@ -24,11 +25,11 @@
         flex-wrap: wrap;
         justify-content: center;
         h3{
-            background-color:rgba(248, 242, 242, 0.459);
+            background-color: rgba(248, 242, 242, 0.062);
+            color: #ffff;
             border-radius: 10px;
             text-align: center;
             font-size: 15px;
-            color: black;
             padding: 5px;
             border: solid white 1px;
             width: 450px;
@@ -52,10 +53,11 @@
     .sobre_nosotros{
         font-size: 18px;
         .texto{
-            color: black;
+            color: #ffff;
             margin: 15px;
             border-radius: 10px;
-            background-color: rgba(248, 242, 242, 0.459);
+            background-color: rgba(248, 242, 242, 0.062);
+            color: #ffff;
             display: flex;
             padding: 20px;
             p{
@@ -69,11 +71,11 @@
         }
         .extra{
             h3{
-                background-color:rgba(248, 242, 242, 0.459);
+                background-color: rgba(248, 242, 242, 0.062);
+                color: #ffff;
                 border-radius: 10px;
                 text-align: center;
                 font-size: 18px;
-                color: black;
                 padding: 5px;
                 border: solid white 1px;
                 width: 450px;

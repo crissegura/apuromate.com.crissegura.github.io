@@ -1,6 +1,6 @@
 .productos{
     .tarjetas{
-        background-color: rgba(248, 242, 242, 0.459);
+        background-color: rgba(248, 242, 242, 0.062);
         text-align: center;
         align-items: center;
         padding: 20px;
@@ -8,6 +8,7 @@
         width: 90%;
         border-radius: 10px;
         border: solid white 1px;
+        color: #ffff;
         .img_productos{
             border-radius: 10px;
             width: 150px;
@@ -25,11 +26,6 @@
                 margin-left: 5px;
                 font-size: 15px;
             }
-        }
-        .comprar{
-            font-size: 12px;
-            border-radius: 5px;
-            background-color: white;
         }
     }
 }

@@ -4,23 +4,30 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 60px;
-  background-image: url(../assets/img/backdes.jpeg);
+  background-image: url(../assets/img/d862c034-3ce5-4099-98be-4a7d237f409a.jpg);
 }
 
-@media (min-width: 992px) {
-  .body {
-    background-image: url(../assets/img//backdes.jpeg);
-  }
+.header {
+  color: white;
+}
+
+.footer {
+  color: white;
 }
 
 .header .nav {
-  background-color: grey;
+  background-color: #000;
   padding: 10px;
   text-align: center;
 }
 
+.header .nav button {
+  color: #fff;
+}
+
 .header .nav .nav-link {
   border-radius: 10px;
+  color: #ffff;
 }
 
 @media (min-width: 992px) {
@@ -33,7 +40,7 @@
 }
 
 .footer {
-  background-color: grey;
+  background-color: #000;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -107,7 +114,8 @@
 .inicio .titulo h1 {
   border: solid black 1px;
   text-align: center;
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
+  color: #ffff;
   border-radius: 10px;
   width: 300px;
   padding: 5px;
@@ -130,8 +138,8 @@
   border: solid white 1px;
   text-align: center;
   text-decoration: none;
-  color: black;
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
+  color: #ffff;
   display: block;
   border-radius: 10px;
   padding: 10px;
@@ -189,8 +197,8 @@
     border: solid white 1px;
     text-align: center;
     text-decoration: none;
-    color: black;
-    background-color: rgba(248, 242, 242, 0.459);
+    background-color: rgba(248, 242, 242, 0.062);
+    color: #ffff;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -202,7 +210,7 @@
 }
 
 .productos .tarjetas {
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -212,6 +220,7 @@
   width: 90%;
   border-radius: 10px;
   border: solid white 1px;
+  color: #ffff;
 }
 
 .productos .tarjetas .img_productos {
@@ -239,12 +248,6 @@
 .productos .tarjetas .texto_tarjetas p {
   margin-left: 5px;
   font-size: 15px;
-}
-
-.productos .tarjetas .comprar {
-  font-size: 12px;
-  border-radius: 5px;
-  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -308,12 +311,14 @@
   margin: 10px;
   border-radius: 10px;
   border: solid white 1px;
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
+  color: #ffff;
 }
 
 @media (min-width: 992px) {
   .contenedor_tutoriales .tutoriales {
-    background-color: rgba(248, 242, 242, 0.459);
+    background-color: rgba(248, 242, 242, 0.062);
+    color: #ffff;
     border-radius: 10px;
     margin: 15px;
   }
@@ -410,7 +415,8 @@
 .sobre_nosotros .contenedor .texto {
   border: solid white 1px;
   margin: 15px;
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
+  color: #ffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -439,11 +445,11 @@
 }
 
 .sobre_nosotros .extra h3 {
-  background-color: rgba(248, 242, 242, 0.459);
+  background-color: rgba(248, 242, 242, 0.062);
+  color: #ffff;
   border-radius: 10px;
   text-align: center;
   font-size: 15px;
-  color: black;
   padding: 5px;
   border: solid white 1px;
   width: 450px;
@@ -473,10 +479,11 @@
     font-size: 18px;
   }
   .sobre_nosotros .texto {
-    color: black;
+    color: #ffff;
     margin: 15px;
     border-radius: 10px;
-    background-color: rgba(248, 242, 242, 0.459);
+    background-color: rgba(248, 242, 242, 0.062);
+    color: #ffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -495,11 +502,11 @@
     height: 250px;
   }
   .sobre_nosotros .extra h3 {
-    background-color: rgba(248, 242, 242, 0.459);
+    background-color: rgba(248, 242, 242, 0.062);
+    color: #ffff;
     border-radius: 10px;
     text-align: center;
     font-size: 18px;
-    color: black;
     padding: 5px;
     border: solid white 1px;
     width: 450px;

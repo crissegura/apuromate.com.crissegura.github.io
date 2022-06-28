@@ -1,10 +1,14 @@
 .header{
     .nav{
-        background-color: $ColorHyF;
+        background-color: #000;
         padding: 10px;
         text-align: center;
+        button{
+            color: #fff;
+        }
         .nav-link{
             border-radius: 10px;
+            color: #ffff;
         }
     }
 }

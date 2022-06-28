@@ -7,13 +7,15 @@
         margin: 10px;
         border-radius: 10px;
         border: solid white 1px;
-        background-color: rgba(248, 242, 242, 0.459);
+        background-color: rgba(248, 242, 242, 0.062);
+        color: #ffff;
     }
 }
 @media(min-width: 992px){
     .contenedor_tutoriales{
         .tutoriales{
-            background-color: rgba(248, 242, 242, 0.459);
+            background-color: rgba(248, 242, 242, 0.062);
+            color: #ffff;
             border-radius: 10px;
             margin: 15px;
             &:hover{

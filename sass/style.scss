@@ -4,13 +4,15 @@
     position: relative;
     min-height: 100vh;
     padding-bottom: 60px;
-    background-image: url(../assets/img/backdes.jpeg);
+    background-image: url(../assets/img/d862c034-3ce5-4099-98be-4a7d237f409a.jpg);
 }
-@media(min-width:992px){
-    .body{
-        background-image:url(../assets/img//backdes.jpeg);
-    }    
+.header{
+    color: white;
 }
+.footer{
+    color: white;
+}
+
 
 @import "_variables.scss";
 @import "_header.scss";
